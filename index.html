@@ -70,14 +70,28 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 height: 100vh; /* 100% of the viewport height */
-                width: device-width; /* Full width of the parent element */
+                width: 100vw; /* Full width of the parent element */
                 display: flex;
                 justify-content: center;
+	        align-items: center; /* Center content vertically */
                 text-align: center;
                 color: white;
                 padding: 100px 20px;
+	        box-sizing: border-box;
             } -->
            
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 50px 10px; /* Adjust padding for smaller screens */
+    }
+    h1 {
+        font-size: 2em; /* Adjust heading size */
+    }
+    p {
+        font-size: 1em; /* Adjust paragraph size */
+    }
+}
 
             .page-header h1 {
                 font-size: 6em;
