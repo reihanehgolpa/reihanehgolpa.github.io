@@ -4494,6 +4494,41 @@ input[type="button"].btn-block {
   border-bottom: 1px solid #dee2e6;
 }
 
+nav {
+    background-color: #007bff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Added flexbox for alignment */
+    justify-content: space-between; /* Space items evenly */
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 1em;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #0056b3;
+}
+
+/* Move the first item to the left */
+.nav-item:first-child {
+    margin-right: auto;
+}
+
 .nav-tabs .nav-item {
   margin-bottom: -1px;
 }
@@ -4509,7 +4544,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #2B547E;
   background-color: transparent;
   border-color: transparent;
 }
