@@ -11088,7 +11088,7 @@ pre {
 }
 
 .img-wrapper .overlay {
-  background: rgba(255, 122, 87, 0.7);
+  background: rgba(135, 206, 250, 0.7);
   position: absolute;
   left: 0;
   bottom: 100%;
@@ -11121,8 +11121,8 @@ pre {
 
 .img-wrapper .overlay .overlay-infos a {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 70px;
+  height: 40px;
   border-radius: 50%;
   border: 2px solid #fff;
   line-height: 35px;
@@ -11132,8 +11132,8 @@ pre {
 }
 
 .img-wrapper .overlay .overlay-infos a:hover {
-  background: #fff;
-  color: #ff7a57;
+  background: #C6DEFF;
+  color: #fff;
 }
 
 .img-wrapper:hover .overlay, .img-wrapper:active .overlay {
