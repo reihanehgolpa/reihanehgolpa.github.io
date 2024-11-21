@@ -33,6 +33,8 @@
   --danger: #F85C70;
   --light: #f8f9fa;
   --dark: #343a40;
+  --blue jay: #2B547E;
+  --heavenly blue: #C6DEFF
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -490,8 +492,8 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: #2B547E;
+  border: 1px solid #2B547E;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
