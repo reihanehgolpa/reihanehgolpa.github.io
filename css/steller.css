@@ -3302,7 +3302,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #ff7a57;
+  color: #2B547E;
   text-decoration: none;
 }
 
@@ -5390,7 +5390,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #ff7a57;
+  color: #2B547E;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
