@@ -164,7 +164,7 @@ sup {
 }
 
 a {
-  color: #ff7a57;
+  color: #2B547E;
   text-decoration: none;
   background-color: transparent;
 }
@@ -11037,7 +11037,7 @@ pre {
   height: 40px;
   border-radius: 50%;
   border: 2px solid #ff7a57;
-  color: #ff7a57;
+  color: #2B547E;
   text-align: center;
   line-height: 40px;
   -webkit-transition: all 0.3s;
@@ -11046,7 +11046,7 @@ pre {
 }
 
 .socials .social-item:hover {
-  background: #ff7a57;
+  background: #2B547E;
   color: #fff;
 }
 
@@ -11190,11 +11190,11 @@ pre {
   display: block;
   font-size: 40px;
   margin-bottom: 18px;
-  color: #ff7a57;
+  color: #2B547E;
 }
 
 .custom-card:hover, .custom-card:active {
-  background: #ff7a57;
+  background: #2B547E;
   color: #fff;
 }
 
@@ -11294,11 +11294,11 @@ pre {
   width: 37px;
   height: 37px;
   border-radius: 50%;
-  border: 1px solid #ff7a57;
+  border: 1px solid #2B547E;
   line-height: 34px;
   text-align: center;
   padding: 0 !important;
-  color: #ff7a57;
+  color: #2B547E;
   margin-right: 15px;
 }
 
@@ -11382,7 +11382,7 @@ pre {
 }
 
 .navbar .navbar-nav .nav-link.active {
-  color: #ff7a57;
+  color: #2B547E;
 }
 
 .navbar .navbar-nav .btn {
@@ -11430,7 +11430,7 @@ pre {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background: #ff7a57;
+  background: #2B547E;
   box-shadow: 0 0 10px rgba(255, 122, 87, 0.5);
 }
 
