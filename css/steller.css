@@ -944,10 +944,7 @@ pre code {
             flex: 0 0 33.33333%;
     max-width: 33.33333%;
   }
-  .img-wrapper img {
-    width: 100%; /* Ensures the image takes the full width of the parent container */
-    height: auto; /* Maintains the aspect ratio */
-  }
+
   .col-sm-5 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 41.66667%;
@@ -11082,6 +11079,8 @@ pre {
 
 .img-wrapper {
   position: relative;
+   width: 100%; /* Ensures the image takes the full width of the parent container */
+   height: auto; /* Maintains the aspect ratio */
   border-radius: 0.25rem;
   overflow: hidden;
   margin-bottom: 30px;
