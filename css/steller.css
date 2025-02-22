@@ -11079,6 +11079,8 @@ pre {
 
 .img-wrapper {
   position: relative;
+  width: 100%;
+  max-width: 300px
   border-radius: 0.25rem;
   overflow: hidden;
   margin-bottom: 30px;
@@ -11089,6 +11091,7 @@ pre {
 .img-wrapper img {
   position: relative;
   width: 100%;
+  height: auto;
   z-index: 8;
 }
 
