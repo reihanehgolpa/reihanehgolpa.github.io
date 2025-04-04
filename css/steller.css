@@ -959,17 +959,16 @@ pre code {
             flex: 0 0 50%;
     max-width: 100%;
         text-align: center;
-    padding: 15px 0;
+
     background-color: #C6DEFF;
     }
     .col-sm-6 p {
     margin: 0;
-    font-size: 15px;
+    font-size: 25px;
     
 }
 
 .col-sm-6 a {
-    color: rgba(0, 0, 0, 0.03);
     text-decoration: none;
 }
 
