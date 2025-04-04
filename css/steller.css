@@ -957,10 +957,24 @@ pre code {
     -webkit-flex: 0 0 50%;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 100%;
         text-align: center;
     padding: 15px 0;
     background-color: #C6DEFF;
+    }
+    .col-sm-6 p {
+    margin: 0;
+    font-size: 15px;
+    
+}
+
+.col-sm-6 a {
+    color: rgba(0, 0, 0, 0.03);
+    text-decoration: none;
+}
+
+.col-sm-6 a:hover {
+    color: #C6DEFF; /* Blue on hover */
   }
   .col-sm-7 {
     -webkit-box-flex: 0;
