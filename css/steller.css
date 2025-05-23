@@ -106,11 +106,10 @@ abbr[data-original-title] {
           text-decoration-skip-ink: none;
 }
 
-p.fealinks {
-padding: 5px;
-}
-p a {
-color: #C6DEFF
+
+.fealinks a {
+padding: 10px;
+color: heavenly blue
 }
 
 
