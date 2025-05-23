@@ -106,6 +106,14 @@ abbr[data-original-title] {
           text-decoration-skip-ink: none;
 }
 
+p.fealinks {
+padding: 5px;
+}
+p a {
+color: #C6DEFF
+}
+
+
 address {
   margin-bottom: 1rem;
   font-style: normal;
