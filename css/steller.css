@@ -11452,7 +11452,8 @@ pre {
 }
 
 .page-footer {
-  background: #fcfdff;
+  background: white;
+  text-align: center;
 }
 
 .page-footer .row {
