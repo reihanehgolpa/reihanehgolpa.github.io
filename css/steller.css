@@ -11680,4 +11680,20 @@ pre {
 
 .mytitle {
 margin-top: 10px;
+  margin-left: 1px;
 }
+
+table {
+  border-collapse: collapse;
+   margin: 0 auto; 
+}
+table td {
+  padding: 40px;
+ font-family: Marcellus;
+font-size: 25px; 
+}
+
+table a:hover {
+    color: #6c757d;   
+}
+
