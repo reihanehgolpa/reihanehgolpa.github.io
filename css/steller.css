@@ -11454,6 +11454,7 @@ pre {
 .page-footer {
   background: white;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .page-footer .row {
@@ -11693,6 +11694,7 @@ table td {
   padding: 10px 25px 10px 25px;
  font-family: Marcellus;
 font-size: 18px; 
+text-align: center;
 }
 
 td a:hover {
