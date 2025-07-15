@@ -11680,7 +11680,7 @@ pre {
 
 .mytitle {
 margin-top: 10px;
-  margin-left: 1px;
+padding: 0px;
 }
 
 
@@ -11690,7 +11690,7 @@ table {
 }
 
 table td {
-  padding: 20px;
+  padding: 10px 25px 10px 25px;
  font-family: Marcellus;
 font-size: 18px; 
 }
