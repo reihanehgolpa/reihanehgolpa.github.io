@@ -11691,10 +11691,9 @@ table {
 }
 
 table td {
-  padding: 10px 25px 10px 25px;
+  padding: 10px 30px 10px 30px;
  font-family: Marcellus;
 font-size: 18px; 
-text-align: justify;
  margin: 0 auto;
 vertical-align: middle;
 }
