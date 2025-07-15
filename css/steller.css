@@ -11695,6 +11695,8 @@ table td {
  font-family: Marcellus;
 font-size: 18px; 
 text-align: justify;
+ margin: 0 auto;
+vertical-align: middle;
 }
 
 td a:hover {
