@@ -11688,8 +11688,7 @@ margin-top: 10px;
 {
 margin-top: 10px;
 margin-bottom: 10px;
-position: absolute;
-  left: 0; 
+text-align: left;
 }
 
 
@@ -11702,7 +11701,7 @@ td {
 
  font-family: Marcellus;
 font-size: 18px; 
- padding: 10px 35px 10px 35px;
+ padding: 12px 35px 12px 35px;
  text-align: center;
 }
 
