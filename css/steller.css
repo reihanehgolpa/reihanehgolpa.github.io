@@ -11679,10 +11679,17 @@ pre {
 }
 
 
-.mytitle {
+.mytitle1{
 margin-top: 10px;
   margin-bottom: 10px;
-  text-align: left;
+}
+
+.mytitle2
+{
+margin-top: 10px;
+margin-bottom: 10px;
+position: absolute;
+  left: 0; 
 }
 
 
@@ -11691,11 +11698,12 @@ table {
    margin: 0 auto; 
 }
 
-table td {
+td {
 
  font-family: Marcellus;
 font-size: 18px; 
-    padding: 10px 35px 10px 35px;
+ padding: 10px 35px 10px 35px;
+ text-align: center;
 }
 
 
