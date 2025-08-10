@@ -11696,8 +11696,6 @@ text-align: left;
 table {
   border-collapse: collapse;
    margin: 0 auto; 
-   width: 100% !important; /* Forces table to fit container */
-  table-layout: auto; /* Allows cells to shrink */
 }
 
 td {
