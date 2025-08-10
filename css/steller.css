@@ -11696,6 +11696,8 @@ text-align: left;
 table {
   border-collapse: collapse;
    margin: 0 auto; 
+   width: 100% !important; /* Forces table to fit container */
+  table-layout: auto; /* Allows cells to shrink */
 }
 
 td {
@@ -11704,6 +11706,8 @@ td {
 font-size: 18px; 
  padding: 10px 38px 10px 38px;
  text-align: center;
+ word-break: break-word; /* Ensures text wraps */
+ white-space: normal !important; /* Overrides any nowrap */
 }
 
 
