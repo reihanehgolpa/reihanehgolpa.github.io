@@ -11706,8 +11706,6 @@ td {
 font-size: 18px; 
  padding: 10px 38px 10px 38px;
  text-align: center;
- word-break: break-word; /* Ensures text wraps */
- white-space: normal !important; /* Overrides any nowrap */
 }
 
 
