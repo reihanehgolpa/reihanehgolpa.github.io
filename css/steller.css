@@ -616,6 +616,16 @@ pre code {
   margin-left: -15px;
 }
 
+
+.row > * {
+  flex: 0 0 50%; /* Two per row (50% width) */
+  max-width: 50%; /* Fallback for older browsers */
+  padding: 0 15px; /* Maintain gutters */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
