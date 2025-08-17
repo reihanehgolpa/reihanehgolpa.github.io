@@ -11717,40 +11717,66 @@ td a:hover {
     color: #6c757d;   
 }
 
-
-.clickable {
-  width: 100%;
-  cursor: pointer;
+/* Image Wrapper */
+.img-wrapper {
+    position: relative;
+    width: fit-content;
+    cursor: pointer;
+    transition: transform 0.2s;
 }
 
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.8);
-  justify-content: center;
-  align-items: center;
+.img-wrapper:hover {
+    transform: scale(1.02);
 }
 
-.modal-content {
-  max-width: 80%;
-  max-height: 80%;
-  margin: auto;
-  display: block;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+/* Popup Overlay */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.close {
-  position: absolute;
-  top: 20px;
-  right: 35px;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
+/* Zoomed Content */
+.zoomed-content {
+    max-width: 90%;
+    max-height: 80vh;
+    text-align: center;
+}
+
+.zoomed-img {
+    max-width: 100%;
+    max-height: 70vh;
+    border-radius: 4px;
+    animation: zoomIn 0.3s;
+}
+
+.zoomed-caption {
+    color: white;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+/* Animation */
+@keyframes zoomIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
 }
 
