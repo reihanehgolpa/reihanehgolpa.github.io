@@ -11098,7 +11098,7 @@ pre {
 }
 
 .img-wrapper {
-  position: relative;
+  position: static;
   border-radius: 0.25rem;
   overflow: hidden;
   margin-bottom: 30px;
@@ -11107,7 +11107,7 @@ pre {
 }
 
 .img-wrapper img {
-  position: relative;
+  position: static;
   width: 100%;
   z-index: 8;
 }
