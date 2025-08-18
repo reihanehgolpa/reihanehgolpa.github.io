@@ -6,13 +6,16 @@ function openPopup(wrapper) {
     document.getElementById("zoomedImage").src = img.src;
     document.getElementById("zoomedCaption").textContent = caption.textContent;
     popup.style.display = "flex";
+     document.body.classList.add('popup-overlay-active');
 }
 
 function closePopup() {
     document.getElementById("popup").style.display = "none";
+     document.body.classList.remove('popup-overlay-active');
 }
 
 // Close when clicking outside image
 document.getElementById("popup").addEventListener('click', function(e) {
     if (e.target === this) closePopup();
+
 });
