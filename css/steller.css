@@ -11738,7 +11738,7 @@ td a:hover {
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.9);
-    z-index: 1000;
+    z-index: 1041;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -11779,5 +11779,17 @@ td a:hover {
 @keyframes zoomIn {
     from { transform: scale(0.8); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
+}
+
+/* Lock scroll and hide navbar when popup is open */
+.popup-overlay-active {
+  overflow: hidden;         /* Prevent page scrolling */
+  touch-action: none;      /* Block mobile swipe gestures */
+}
+
+.popup-overlay-active .navbar {
+  opacity: 0;              /* Fade out navbar */
+  pointer-events: none;    /* Disable clicks on navbar */
+  transition: opacity 0.3s ease; /* Smooth fade effect */
 }
 
