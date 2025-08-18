@@ -242,7 +242,7 @@
 
          <div class="row">
                 <div class="col-sm-4"> 
-                    <div class="img-wrapper">
+                  <!--  <div class="img-wrapper">
                         <img src="imgs/image1.jpeg" alt="">
 
                        <!-- <div class="overlay">
@@ -250,9 +250,24 @@
                                 <h5>A Corner of The History</h5>
                                 <a href="https://github.com/reihanehgolpa/reihanehgolpa.github.io/blob/main/imgs/image1.jpeg?raw=true"><i class="ti-zoom-in"></i>
                                     <i class="ti-zoom-in"></i> Zoom In
-				</a> -->
+				</a>
 				      <figcaption>A Corner of The History</figcaption>
-                            </div>                     
+                            </div>  -->
+			 
+ <div class="img-wrapper" onclick="openPopup(this)">
+        <img src="imgs/image1.jpeg" alt="">
+        <figcaption>A Corner of The History</figcaption>
+    </div>
+
+    <!-- Popup markup -->
+    <div class="popup-overlay" id="popup">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <div class="zoomed-content">
+            <img class="zoomed-img" id="zoomedImage">
+            <div class="zoomed-caption" id="zoomedCaption"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 
 
 
@@ -366,18 +381,7 @@
 					
   </div> 
 
-		                <div class="col-sm-4"> 
-                <!--    <div class="img-wrapper">
-                        <img src="imgs/Mom's_Summer_Menue(2).jpg" alt="">
-                        <!--  <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Mom's Summer Menue</h5>
-<a href="https://github.com/reihanehgolpa/reihanehgolpa.github.io/blob/main/imgs/Mom's_Summer_Menue(2).jpg?raw=true" <i class="ti-zoom-in"></i> Zoom In </a> 
-					<figcaption>Mom's Summer Menue</figcaption>
-
-                            </div>     -->
-
-							
+		                <div class="col-sm-4"> 					
     <div class="img-wrapper" onclick="openPopup(this)">
         <img src="imgs/Mom's_Summer_Menue(2).jpg" alt="">
         <figcaption>Mom's Summer Menu</figcaption>
@@ -391,7 +395,6 @@
             <div class="zoomed-caption" id="zoomedCaption"></div>
         </div>
     </div>
-
     <script src="script.js"></script>
 
 							
