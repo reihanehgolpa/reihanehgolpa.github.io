@@ -11791,4 +11791,15 @@ td a:hover {
   pointer-events: none;    /* Disable clicks on navbar */
   transition: opacity 0.3s ease; /* Smooth fade effect */
 }
+dt 
+{
+  font-family: Marcellus;
+font-size: 18px;
+}
+
+dd
+{
+font-family: Marcellus;
+font-size: 18px;
+}
 
