@@ -11006,7 +11006,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  font-size: calc(18px + (25 - 18) * ((100vw - 320px) / (1200 - 320)));
+  font-size: calc(20px + (25 - 18) * ((100vw - 320px) / (1200 - 320)));
 }
 
 @media (min-width: 992px) {
