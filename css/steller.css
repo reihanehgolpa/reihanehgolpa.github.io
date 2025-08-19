@@ -11798,3 +11798,28 @@ font-family: Marcellus;
 font-size: 18px;
 }
 
+
+.box {
+  width: 100%;
+max-width: 900px;
+  display: flex;
+ flex-flow: wrap;
+ justify-content: center; 
+  margin: auto; 
+  padding: 0px;
+}
+
+
+.box > * {
+  flex: 1 1 200px; /* Grow/shrink with a base width */
+  max-width: 200px; /* Prevent items from getting too wide */
+  height: 80px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
