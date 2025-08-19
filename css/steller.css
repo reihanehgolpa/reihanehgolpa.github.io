@@ -11006,7 +11006,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  font-size: calc(20px + (25 - 18) * ((100vw - 320px) / (1200 - 320)));
+font-size: clamp(20px, 2vw + 1rem, 25px);
 }
 
 @media (min-width: 992px) {
@@ -11684,16 +11684,12 @@ pre {
 }
 
 
-.mytitle1{
-margin-top: 7px;
-  margin-bottom: 7px;
-}
-
-.mytitle2
-{
+.mytitle{
+font-size: clamp(20px, 2vw + 1rem, 25px);
 margin-top: 7px;
 margin-bottom: 7px;
 }
+
 
 
 table {
