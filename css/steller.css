@@ -11823,3 +11823,8 @@ max-width: 900px;
   align-items: center;
   text-align: center;
 }
+
+.box a:hover {
+    color: #6c757d;   
+}
+
