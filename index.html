@@ -500,8 +500,23 @@
     </div>
     <script src="script.js"></script>	
 
-						
+							
+		 <div class="img-wrapper" onclick="openPopup(this)">
+        <img src="imgs/Forest_Café.jpg" alt="">
+        <figcaption>Forest Café</figcaption>
+    </div>
+    <!-- Popup markup -->
+    <div class="popup-overlay" id="popup">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <div class="zoomed-content">
+            <img class="zoomed-img" id="zoomedImage">
+            <div class="zoomed-caption" id="zoomedCaption"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>				
 
+
+							
 
     <div class="img-wrapper" onclick="openPopup(this)">
         <img src="imgs/finedaycombined.jpg" alt="">
