@@ -52,6 +52,17 @@ system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto S
   box-sizing: border-box;
 }
 
+
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+}
+.welcome {
+  margin: 0 0 0.5rem;
+}
+
+
 .marcellus-regular {
   font-family: "Marcellus", serif;
   font-weight: 400;
