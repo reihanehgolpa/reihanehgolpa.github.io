@@ -11438,7 +11438,7 @@ pre {
 }
 
 .site-navbar .site-nav .nav-link {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 @media (max-width: 991.98px) {
@@ -11452,7 +11452,6 @@ pre {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 13px;
   font-weight: bold;
   margin: 0 10px;
   -webkit-transition: all 0.3s;
