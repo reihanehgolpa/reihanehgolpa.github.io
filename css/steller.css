@@ -11495,9 +11495,13 @@ pre {
 }
 
 .page-footer {
-  background: white;
+  background: transparent;
   text-align: center;
   margin-bottom: 20px;
+}
+
+.page-footer p {
+  background: transparent;
 }
 
 .page-footer .row {
