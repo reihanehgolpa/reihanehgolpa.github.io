@@ -11513,6 +11513,8 @@ pre {
 
 .page-footer p {
   background: transparent;
+  text-align: center;
+  margin: 24px 0 0; /* small gap under the email */
 }
 
 .page-footer .row {
