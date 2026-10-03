@@ -11508,22 +11508,19 @@ pre {
 .page-footer {
   background: transparent;
   text-align: center;
-  margin: 24px 0 0; /* small gap under the email */
+  margin: 10px 0 0; /* small gap under the email */
 }
 
 .page-footer p {
   background: transparent;
   text-align: center;
-  margin: 24px 0 0; /* small gap under the email */
+  margin: 10px 0 0; /* small gap under the email */
 }
 
 .page-footer .row {
   height: 100px;
 }
 
-.page-footer p {
-  margin-bottom: 0;
-}
 
 .page-footer .socials {
   max-width: 210px;
