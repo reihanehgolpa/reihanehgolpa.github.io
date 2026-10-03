@@ -11027,6 +11027,7 @@ font-size: clamp(20px, 2vw + 1rem, 25px);
 
 .section-title {
   font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+  text-align: center;
 }
 
 @media (min-width: 992px) {
@@ -11040,6 +11041,7 @@ font-size: clamp(20px, 2vw + 1rem, 25px);
     calc
     (13px + (15 - 13) * ((100vw - 320px) / (1200 - 320)));
   opacity: .8;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
